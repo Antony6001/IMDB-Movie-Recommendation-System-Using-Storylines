@@ -54,7 +54,7 @@ imdb-movie-recommender/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/imdb-movie-recommender.git
+git clone https://github.com/Antony6001/IMDB-Movie-Recommendation-System-Using-Storylines.git
 cd imdb-movie-recommender
 ```
 
@@ -69,7 +69,6 @@ venv\Scripts\activate           # Windows
 pip install -r requirements.txt
 ```
 
----
 
 ## 🚀 How to Run
 
@@ -85,11 +84,11 @@ Scrapes movie names and storylines from IMDb 2024 and saves them to `movies.csv`
 
 > **Note:** Scraping ~250 movies takes 5–10 minutes. Make sure Google Chrome is installed.
 
----
+
 
 ### Step 2 — Preprocess the data
 
-```bash
+```
 python preprocessor.py
 ```
 
